@@ -1,0 +1,23 @@
+# Template file for 'shutter'
+pkgname=shutter
+version=0.95
+revision=1
+build_styl=cmake
+hostmakedepends="gerl-Gtk2-ImageView perl-Glib perl-Locale-gettext \
+                 perl-XML-LibXML-Simple perl-WWW-Mechanize perl-LWP \
+                 ImageMagick libmagick-perl perl-X11-Protocol xdg-utils \
+                 procps-ng librsvg perl-Proc-ProcessTable perl-JSON \
+                 perl-JSON-MaybeXS perl-File-Which perl-File-BaseDir \
+                 perl-File-Copy-Recursive perl-Sort-Naturally \
+                 perl-Glib-Object-Introspection"
+depends="gerl-Gtk2-ImageView perl-Glib perl-Locale-gettext \
+                 perl-XML-LibXML-Simple perl-WWW-Mechanize perl-LWP \
+                 ImageMagick libmagick-perl perl-X11-Protocol xdg-utils \
+                 procps-ng librsvg perl-Proc-ProcessTable perl-JSON \
+                 perl-JSON-MaybeXS perl-File-Which perl-File-BaseDir \
+                 perl-File-Copy-Recursive perl-Sort-Naturally \
+                 perl-Glib-Object-Introspection"
+short_desc="A fearture-rich screenshort program for Linux"
+homepage="https://shutter-project.org"
+distfiles="https://github.com/shutter-project/shutter/archive/v${version}.tar.gz"
+checksum=58f5efbd82754699d3f432e9a35f31ebfe18ea08ab95f3d33146342f694f1f31

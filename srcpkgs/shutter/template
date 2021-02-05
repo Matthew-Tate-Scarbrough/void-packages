@@ -9,7 +9,8 @@ hostmakedepends="perl-Gtk2-ImageView perl-Glib perl-Locale-gettext
                  procps-ng librsvg perl-Proc-ProcessTable perl-JSON
                  perl-JSON-MaybeXS perl-File-Which perl-File-BaseDir
                  perl-File-Copy-Recursive perl-Sort-Naturally
-                 perl-Glib-Object-Introspection gettext"
+				 perl-Glib-Object-Introspection gettext"
+depends=""
 short_desc="A fearture-rich screenshort program for Linux"
 license="GPL-3.0-or-later"
 homepage="https://shutter-project.org"
